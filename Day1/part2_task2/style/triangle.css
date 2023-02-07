@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+canvas{
+    position: absolute;
+    margin:0% 20%;
+}
+#a{
+    position: absolute;
+    margin:25% 25%;
+    font-size: 30px;
+}
+#b{
+    position: absolute;
+    margin:37% 40%;
+    font-size: 30px;
+}
+#c{
+    position: absolute;
+    margin:25% 47%;
+    font-size: 30px;
+}
+
+#equation{
+    margin: 40% 25%;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: brown;
+}
+#theo{
+    text-align: center;
+    font-size: 35px;
+    font-weight:lighter;
+    color: black;
+}
+
+

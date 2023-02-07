@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/videoRange.css">
+</head>
+
+<body>
+    <div class="VideoRange">
+        <video
+        width="500"
+        height="300"
+        src="/video/test.mp4"
+        type="video/mp4"
+        poster="/images/PosterImg.jpeg"
+        title="Frozen"
+        id="vid">
+        </video>
+        <input type="range" id="vidRange" name="Duration" min="0" max="100">
+        <div id="time">
+           <span id="curtimetext" onchange="setVideoProgress()">00:00</span><span id="slash">/</span><span id="durtimetext">00:00</span> 
+        </div>  
+        
+    </div>
+    <div class="controllers">
+        <button id="playing" onclick="playVideo()">play</button>
+        <button id="stopping" onclick="stopVideo()">stop</button>
+        <button id="mutting" onclick="muteVideo()">mute</button>
+        <input id="volControl" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+        <button id="moveToFisrt" onclick="goToBegin()"> << </button>
+        <button id="moveToLast" onclick="goToEnd()">>></button>
+        <button id="speeddown" onclick="decresesSpeed()"><</button>
+        <button id="speedup" onclick="increseSpeed()">></button>
+        <label>speed</label>
+        <input type="range" id="speedRange" name="Speed" min="0.5" max="16" step="1" onchange="IncreasesSpeed(this.value)"> 
+    </div>
+    <script src="/script/videoRange.js"></script>
+</body>
+</html>

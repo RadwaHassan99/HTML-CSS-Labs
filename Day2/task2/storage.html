@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changing email form</title>
+    <link rel="stylesheet" href="/style/storage.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>
+                Email Changing Form
+            </h1>
+            <img src="/image/mail.jpg" alt="email">
+        </header>
+        
+        <section id="formdCont">
+                <form action="Welcome.html"  target="_blank">
+                    <label id="nameLabel">username:</label>
+                    <input type="text" required id="name" autocomplete="off" placeholder="Enter name" pattern="[A-Za-z0-9]{12}">
+                    <p id="error_username">Username must contain 10 elements and may contain any charachter or numbers</p><br>
+
+                    <label id="passLabel">password:</label>
+                    <input type="password" id="password" autocomplete="off" placeholder="Enter phone" minlength="10" maxlength="20" required>
+                    <p>password must contain at least 10 elements</p><br>
+        
+                    <label id="emailLabel">email:</label>
+                    <input type="email" id="email" autocomplete="off" placeholder="example@gmail.com" required>
+                    <p>email may not contain any special charachters but must contain '@' sign</p><br>
+        
+                <input type="submit" id="submit" value="change"  onclick="store()">
+            </form>
+        </section>
+
+    </div>
+
+
+    <script src="/script/storage.js"></script>
+</body>
+</html>

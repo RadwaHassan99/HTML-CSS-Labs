@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.VideoRange{
+    width: auto;
+    height: auto;
+    position: relative; 
+    margin: 50px 50px;
+}
+video{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    margin: 5% 25%;
+}
+#time{
+    margin-left: 5%;
+}
+#slash{
+    display: inline-block;
+    position: absolute;
+    margin: 360px 1106px;   
+    font-weight: bolder;
+}
+#curtimetext{
+    display: inline-block;
+    position: absolute;
+    margin: 360px 1070px;
+}
+#durtimetext{
+    display: inline-block;
+    position: absolute;
+    margin: 360px 1110px;   
+}
+#vidRange{
+    display: block;
+    position: absolute;
+    margin: 380px 29.1%;
+    width: 41.8%;
+    height:5px;
+    -webkit-appearance: none;
+    background: #3950e8;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  #vidRange:hover {
+    opacity: 1;
+  }
+  
+  #vidRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 20px;
+    opacity: 1;
+    background: #22e914;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+
+#playing{
+    display: block;
+    width: 40px;
+    position: absolute;
+    margin: 25% 30%;
+}
+
+#stopping{
+    display: block;
+    width: 40px;
+    position: absolute;
+    margin: 25% 33%;
+}
+#mutting{
+    display: block;
+    width: 40px;
+    position: absolute;
+    margin: 25% 52%;
+}
+#volControl{
+    display: block;
+    width: 70px;
+    position: absolute;
+    margin: 25% 47%;
+}
+#moveToFisrt{
+    display: block;
+    width: 40px;
+    position: absolute;
+    margin: 25% 36%;
+}
+#moveToLast{
+    display: block;
+    width: 40px;
+    position: absolute;
+    margin: 25% 43%;
+}
+#speeddown{
+    display: block;
+    width: 25px;
+    position: absolute;
+    margin: 25% 39%;   
+}
+#speedup{
+    display: block;
+    width: 25px;
+    position: absolute;
+    margin: 25% 41%;   
+}
+label{
+    display: inline-block;
+    width: 70px;
+    position: absolute;
+    margin: 28% 34%;  
+}
+#speedRange{
+    display: inline-block;
+    width: 70px;
+    position: absolute;
+    margin: 28% 37%;
+}

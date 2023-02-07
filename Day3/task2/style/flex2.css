@@ -1,0 +1,18 @@
+body{
+    height: 1000px;
+}
+.box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dotted;
+    height: 50%;
+  }
+  
+  .box div {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    background-color: aqua;
+  }
+  

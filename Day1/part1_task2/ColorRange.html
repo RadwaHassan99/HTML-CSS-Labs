@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/ColorRange.css">
+</head>
+
+<body>
+    <div class="colors">
+        <label id="red">Red</label>
+        <input type="range" id="redRange" name="Red" min="0" max="255" value="0" step="1" oninput="colors()">  
+
+        <label id="green">Green</label>
+        <input type="range" id="greenRange" name="Green" min="0" max="255" value="0" step="1" oninput="colors()"> 
+
+        <label id="blue">Blue</label>
+        <input type="range" id="blueRange" name="Blue" min="0" max="255" value="0" step="1" oninput="colors()">       
+    </div>
+    <div class="Text">
+        <p id="Paragraph">change color of paragraph using the three range sliders</p>
+    </div>
+    <script src="/script/ColorRange.js"></script>
+</body>
+</html>

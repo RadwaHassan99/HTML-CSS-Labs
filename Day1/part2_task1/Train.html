@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Reservation Form</title>
+    <link rel="stylesheet" href="/style/Train.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>
+                Alexandria Railway 
+            </h1>
+            <h2>
+                Regestration Form
+            </h2>
+            <img src="/image/train.jpeg" alt="Alexndrai Trains">
+        </header>
+        
+        <section id="formdCont">
+                <form action="Welcome.html" method="get">
+                    <label id="nameLabel">name:</label>
+                    <input type="text" required id="name" autocomplete="off" placeholder="Enter name"><br>
+        
+                    <label id="phoneLabel">phone:</label>
+                    <input type="number" pattern="[0-9][11]" id="phone" autocomplete="off" placeholder="Enter phone"><br>
+        
+                    <label id="emailLabel">email:</label>
+                    <input type="email" id="email" autocomplete="off" placeholder="example@gmail.com"><br>
+        
+                    <label id="dateLabel">date:</label>
+                    <input type="datetime-local" id="date"><br>
+        
+                    <label id="fromLable">form:</label>
+                    <input list="region" name="From" id="From" placeholder="choose region"><br>
+        
+                    <label id="toLabel">to:</label>
+                    <input list="region" name="dest" id="dest" placeholder="choose region"><br>
+        
+                <datalist id="region">
+                  <option value="Abu-Qir">
+                  <option value="Toson">
+                  <option value="El-Maamoura">
+                  <option value="Al-Eslah">
+                  <option value="Montaza">
+                  <option value="Mandara">
+                  <option value="Asafra"> 
+                  <option value="Sidi-Beshr">
+                  <option value="Sidi-Gber">
+                </datalist>
+                <input type="submit" id="submit" onclick="store()">
+            </form>
+        </section>
+
+    </div>
+
+
+    <script src="/script/Train.js"></script>
+</body>
+</html>

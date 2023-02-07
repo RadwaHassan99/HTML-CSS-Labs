@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+div{
+  margin: auto;
+  position: relative;
+  width: 35%;
+  height: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 20px;
+  padding: 100px 100px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+header{
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+  width: 100%;
+  height: 50%;
+  
+}
+
+h1{
+  text-shadow: turquoise;
+  color: rebeccapurple;
+  background-image:linear-gradient(to right, #553c9a 5%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+label{
+  font-weight: 700;
+  color:blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header img{
+  display: block;
+  padding: 3% 30%;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+#formdCont{
+  text-align: center;
+  margin: auto;
+  padding: 8% 5%;
+  width: 100%;
+  height: 50%;
+}
+
+#name{
+  width: 85%;
+  margin:1% 5%;
+  box-sizing: border-box;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+#password{
+  margin:1% 4%;
+  width: 85%;
+  box-sizing: border-box;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+#email{
+  width: 85%;
+  margin:1% 5%;
+  box-sizing: border-box;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+input:invalid{
+  border-color: red;
+}
+
+input:valid{
+  border-color: greenyellow;
+}
+
+
+input:valid+p{
+  visibility: hidden;
+}
+
+input:invalid+p{
+  visibility: visible;
+}
+
+#submit{
+  width: 100px;
+  height: 50px;
+  margin:5% 5%;
+  border-radius: 20px;
+  color:blue;
+  font-weight: 700;
+}
+

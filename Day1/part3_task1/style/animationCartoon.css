@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.box{
+    margin: auto;
+    position: relative;
+    width: 150px;    
+    height: 150px;    
+    border: 5px solid rgb(202, 33, 75);
+    
+}
+
+img{
+position: absolute;
+width:300px;
+transform-origin: left;
+animation:out 3s forwards;
+
+}   
+
+img:hover{
+    animation: anim 3s forwards;
+}
+
+@keyframes anim {
+
+	0% {
+		opacity: 100%;
+	}
+
+    50%{
+        opacity: 50%;
+    }
+
+	100% {
+        opacity: 0;
+	}
+}
+
+@keyframes out {
+
+	0% {
+		opacity: 0%;
+	}
+
+    50%{
+        opacity: 50%;
+    }
+
+	100% {
+        opacity: 100%;
+	}
+}
+
+
+
+
+
