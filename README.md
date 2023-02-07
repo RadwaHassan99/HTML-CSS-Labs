@@ -39,6 +39,7 @@ https://user-images.githubusercontent.com/63107268/217327608-93932b91-91e9-4394-
 ## Day4
 ### bootstrap task
 ![4_1](https://user-images.githubusercontent.com/63107268/217327744-060f8df4-1385-469c-9df7-64764083e104.PNG)
+
 https://user-images.githubusercontent.com/63107268/217327776-10620602-36ec-46b7-9729-ed75b9dfa71a.mp4
 
 
