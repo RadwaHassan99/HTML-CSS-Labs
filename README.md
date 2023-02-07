@@ -3,7 +3,7 @@
 ### Part1 task1:
 ![1_11](https://user-images.githubusercontent.com/63107268/217326404-5236d55d-ad9c-4e9c-9c9b-5466533b1c40.PNG)
 
-Uploading 2023-02-07-20-17-29.mp4…
+![1_111](https://user-images.githubusercontent.com/63107268/217333745-ec484dd3-9839-47ce-9e0f-d7836e1b4115.PNG)
 
 ### Part1 task2:
 ![1_12](https://user-images.githubusercontent.com/63107268/217326518-ac05b6be-f568-4788-8db3-79476c5192a4.PNG)
